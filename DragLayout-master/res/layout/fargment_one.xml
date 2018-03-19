@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bq" >
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imageView1"
+        android:layout_marginTop="16dp"
+        android:text="荣誉奖励：\n校一、二、三等奖学金\n校三好学生	\n校优秀团员干部\n蓝桥杯省赛三等奖\n中兴-图灵杯程序设计大赛三等奖\n金鱼草杯软件设计大赛优胜奖\n计算机学院红十子会征文特等奖\n计算机学院配音大赛一等奖\n计算机学院心协征文一、二等奖"
+        android:textColor="#ffffff"
+        android:textSize="21sp" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="38dp"
+        android:src="@drawable/bt" />
+
+</RelativeLayout>

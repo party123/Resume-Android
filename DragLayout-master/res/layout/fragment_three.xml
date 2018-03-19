@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/bq">
+
+      <ImageView
+          android:id="@+id/imageView1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentLeft="true"
+          android:layout_alignParentTop="true"
+          android:layout_marginTop="31dp"
+          android:src="@drawable/kobe" />
+
+      <ImageView
+          android:id="@+id/imageView2"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentRight="true"
+          android:layout_alignTop="@+id/imageView1"
+          android:src="@drawable/ai" />
+
+      <TextView
+          android:id="@+id/textView1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentLeft="true"
+          android:layout_below="@+id/imageView1"
+          android:text="1.篮球\n从小非常喜欢看NBA，打篮球，最喜欢的球员是科比\n\n2.音乐\n非常喜欢听欧美的流行和轻摇滚音乐，最喜欢的歌手是艾薇儿\n\n3.旅游\n旅游能看到各地的风土人情，既能开拓眼界又能陶冶情操"
+          android:textColor="#FFFFFF"
+          android:textSize="21sp" />
+
+</RelativeLayout>

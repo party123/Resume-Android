@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/bq">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/text1"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/bz" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:text="社会工作:\n2013年9月—2014年7月\n院学生会文宣部副部长\n院青协办公室副主任\nACM亚洲赛南京站志愿者\n校庆志愿者\n\n2014年7月—2014年9月\n第二届南京青奥会游泳馆成绩助理\n暑期营销兼职\n院青协活动部—部长\n班级文体委员"
+        android:textColor="#ffffff"
+        android:textSize="21sp" />
+
+</RelativeLayout>
